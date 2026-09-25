@@ -30,7 +30,7 @@
   .backdrop{
     position:fixed; inset:0; z-index:-1;
     background:url(img/hero.jpg) center/cover;
-    filter:blur(60px) brightness(.35) saturate(1.2);
+    filter:blur(60px) brightness(.55) saturate(1.2);
     transform:scale(1.2);
   }
 
@@ -39,6 +39,10 @@
     background:var(--bg);
     box-shadow:0 0 80px rgba(0,0,0,.5);
     padding-bottom:40px;
+  }
+
+  @media (min-width:540px){
+    .page{margin:40px auto; min-height:auto; border-radius:28px; overflow:hidden}
   }
 
   /* HERO */
